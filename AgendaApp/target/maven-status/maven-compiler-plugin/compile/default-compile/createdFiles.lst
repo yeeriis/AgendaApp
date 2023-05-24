@@ -1,0 +1,4 @@
+module-info.class
+com\mycompany\agendaapp\usuario.class
+com\mycompany\agendaapp\App.class
+com\mycompany\agendaapp\RegistrarUsuarioController.class

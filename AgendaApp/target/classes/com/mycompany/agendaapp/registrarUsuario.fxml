@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="434.0" prefWidth="398.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.agendaapp.RegistrarUsuarioController">
+   <children>
+      <Label contentDisplay="CENTER" prefHeight="36.0" prefWidth="398.0" text="AÑADIR CONTACTO" textAlignment="CENTER">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="68.0" prefWidth="398.0">
+         <children>
+            <TextField fx:id="campoNombre" prefHeight="8.0" prefWidth="149.0" promptText="Introduce el nombre" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="68.0" prefWidth="398.0">
+         <children>
+            <TextField fx:id="campoApellidos" prefHeight="8.0" prefWidth="149.0" promptText="Introduce el apellido" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="68.0" prefWidth="398.0">
+         <children>
+            <TextField fx:id="campoDireccion" promptText="Introduce la dirección" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="68.0" prefWidth="398.0">
+         <children>
+            <TextField fx:id="campoTelefono" promptText="Introduce el telefono" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="68.0" prefWidth="398.0">
+         <children>
+            <TextField fx:id="campoEdad" promptText="Introduce la edad" />
+         </children>
+      </HBox>
+      <Button fx:id="botonGuardar" alignment="BOTTOM_CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#guardarContacto" text="Añadir" />
+   </children>
+</VBox>
